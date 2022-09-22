@@ -3,3 +3,20 @@ $secondary-color:white;
 $main-bg-color:rgb(249, 157, 172);
 $secondary-bg-color:whitesmoke;
 $font: Dancing Script , cursive ;
+
+.icon {
+    width:20px;
+    height:20px;
+    margin:5px;
+}
+
+.container {
+    width:80%;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin:auto;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,3 +1,20 @@
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.container {
+  width: 80%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +22,16 @@
 }
 
 body {
-  background-color: rgb(249, 157, 172);
+  background-color: whitesmoke;
   color: rgb(133, 6, 6);
   font-family: Dancing Script, cursive;
-  margin: 20px;
+}
+
+header#mainheader {
+  background-color: rgb(249, 157, 172);
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
 }
