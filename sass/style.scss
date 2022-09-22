@@ -1,0 +1,14 @@
+@import 'config';
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $main-bg-color;
+    color:$main-color;
+    font-family: $font;
+    margin:20px;
+}
