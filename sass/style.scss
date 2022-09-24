@@ -24,7 +24,7 @@ header#mainheader {
 
 nav#main-nav {
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .logo {
@@ -46,6 +46,7 @@ nav#main-nav {
 
 
 .navigation {
+    align-self: center;
     display: flex;
     align-items: center;
 
@@ -53,7 +54,7 @@ nav#main-nav {
         display: inline-block;
         text-decoration: none;
         transition: transform .2s;
-        margin-left:2px;
+        margin-bottom:10px;
     }
 
     li:hover {
@@ -62,8 +63,9 @@ nav#main-nav {
 
     a {
         color:$main-color;
-        padding:4px;
-        font-size:22px;
+        font-size:25px;
+        margin:5px;
+        margin-bottom:10px;
     }
 
     a:hover {

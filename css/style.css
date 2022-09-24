@@ -44,7 +44,7 @@ header#mainheader {
 
 nav#main-nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .logo {
@@ -62,6 +62,7 @@ nav#main-nav {
 }
 
 .navigation {
+  align-self: center;
   display: flex;
   align-items: center;
 }
@@ -69,15 +70,16 @@ nav#main-nav {
   display: inline-block;
   text-decoration: none;
   transition: transform 0.2s;
-  margin-left: 2px;
+  margin-bottom: 10px;
 }
 .navigation li:hover {
   transform: scale(1.2);
 }
 .navigation a {
   color: rgb(133, 6, 6);
-  padding: 4px;
-  font-size: 22px;
+  font-size: 25px;
+  margin: 5px;
+  margin-bottom: 10px;
 }
 .navigation a:hover {
   color: white;
