@@ -15,6 +15,12 @@ a {
   text-decoration: none;
 }
 
+.nav-container {
+  box-sizing: border-box;
+  overflow: hidden;
+  border-top: 1px solid white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,4 +40,45 @@ header#mainheader {
 .contact-header {
   display: flex;
   justify-content: space-between;
+}
+
+nav#main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 15%;
+}
+
+#main-logo {
+  width: 85px;
+  height: 60px;
+  transition: transform 0.2s;
+  margin-left: 10px;
+}
+#main-logo:hover {
+  transform: scale(1.2);
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation li {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.2s;
+  margin-left: 2px;
+}
+.navigation li:hover {
+  transform: scale(1.2);
+}
+.navigation a {
+  color: rgb(133, 6, 6);
+  padding: 4px;
+  font-size: 22px;
+}
+.navigation a:hover {
+  color: white;
 }

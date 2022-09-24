@@ -20,3 +20,56 @@ header#mainheader {
     display: flex;
     justify-content: space-between;
 }
+
+
+nav#main-nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width:15%;
+}
+
+#main-logo {
+    width:85px;
+    height:60px;
+    transition: transform .2s;
+    margin-left:10px;
+
+    &:hover {
+        transform: scale(1.2);
+
+    }
+}
+
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+    li {
+        display: inline-block;
+        text-decoration: none;
+        transition: transform .2s;
+        margin-left:2px;
+    }
+
+    li:hover {
+        transform: scale(1.2);
+    }
+
+    a {
+        color:$main-color;
+        padding:4px;
+        font-size:22px;
+    }
+
+    a:hover {
+        color:$secondary-color;
+    }
+}
+
+
+

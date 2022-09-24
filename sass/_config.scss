@@ -2,7 +2,7 @@ $main-color:rgb(133, 6, 6);
 $secondary-color:white;
 $main-bg-color:rgb(249, 157, 172);
 $secondary-bg-color:whitesmoke;
-$font: Dancing Script , cursive ;
+$font: Dancing Script , cursive;
 
 .icon {
     width:20px;
@@ -19,4 +19,10 @@ $font: Dancing Script , cursive ;
 
 a {
     text-decoration: none;
+}
+
+.nav-container {
+    box-sizing: border-box;
+    overflow: hidden;
+    border-top: 1px solid $secondary-color;
 }
