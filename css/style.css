@@ -42,44 +42,40 @@ header#mainheader {
   justify-content: space-between;
 }
 
-nav#main-nav {
-  display: flex;
-  flex-direction: column;
+.logo-search {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.logo {
-  width: 15%;
-}
-
-#main-logo {
-  width: 85px;
+.logo img {
+  width: 80px;
   height: 60px;
-  transition: transform 0.2s;
-}
-#main-logo:hover {
-  transform: scale(1.2);
 }
 
-.navigation {
-  align-self: center;
+.search-bar {
   display: flex;
   align-items: center;
 }
-.navigation li {
-  display: inline-block;
-  text-decoration: none;
-  transition: transform 0.2s;
-  margin-bottom: 10px;
-}
-.navigation li:hover {
-  transform: scale(1.2);
-}
-.navigation a {
+.search-bar input {
+  width: 300xp;
+  height: 30px;
+  border-radius: 30px;
+  border-color: rgb(133, 6, 6);
   color: rgb(133, 6, 6);
-  font-size: 25px;
-  margin: 5px;
-  margin-bottom: 10px;
 }
-.navigation a:hover {
+.search-bar a {
+  padding: 5px 8px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  color: rgb(133, 6, 6);
+  margin-left: 5px;
+  font-size: 16px;
+}
+.search-bar a:hover {
+  background-color: rgb(133, 6, 6);
   color: white;
+}
+
+.navbar li {
+  display: inline-block;
 }
