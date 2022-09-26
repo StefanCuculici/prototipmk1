@@ -95,3 +95,7 @@ header#mainheader {
   background-color: rgb(133, 6, 6);
   color: white;
 }
+
+svg {
+  color: rgb(133, 6, 6);
+}
