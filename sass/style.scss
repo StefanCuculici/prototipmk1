@@ -64,3 +64,31 @@ header#mainheader {
     }
 }
 
+.tort {
+    width:200px;
+    height:200px;
+    position: absolute;
+    transition: .3s;
+
+    &:hover {
+        opacity:20%;
+    }
+
+}
+
+
+
+.block {
+   background-color: black;
+    width:200px;
+    height:200px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color:$secondary-color;
+    }
+
+}

@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-.icon {
-  width: 20px;
-  height: 20px;
-  margin: 5px;
-}
-
 .container {
   width: 80%;
   box-sizing: border-box;
@@ -25,6 +19,11 @@ a {
   box-sizing: border-box;
   overflow: hidden;
   border-top: 1px solid white;
+}
+
+svg {
+  color: rgb(133, 6, 6);
+  padding-left: 3px;
 }
 
 .navbar {
@@ -93,5 +92,28 @@ header#mainheader {
 }
 .search-bar a:hover {
   background-color: rgb(133, 6, 6);
+  color: white;
+}
+
+.tort {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transition: 0.3s;
+}
+.tort:hover {
+  opacity: 20%;
+}
+
+.block {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block h1 {
   color: white;
 }

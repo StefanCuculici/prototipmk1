@@ -10,11 +10,6 @@ $font: Dancing Script , cursive;
     box-sizing: border-box;
 }
 
-.icon {
-    width:20px;
-    height:20px;
-    margin:5px;
-}
 
 .container {
     width:80%;
@@ -31,4 +26,10 @@ a {
     box-sizing: border-box;
     overflow: hidden;
     border-top: 1px solid $secondary-color;
+    
+}
+
+svg {
+    color:$main-color;
+    padding-left:3px;
 }
