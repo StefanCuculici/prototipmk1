@@ -95,6 +95,7 @@ header#mainheader {
   color: white;
 }
 
+<<<<<<< HEAD
 .tort {
   width: 200px;
   height: 200px;
@@ -116,4 +117,8 @@ header#mainheader {
 }
 .block h1 {
   color: white;
+=======
+svg {
+  color: rgb(133, 6, 6);
+>>>>>>> bf2f658ce451e460e9b306b64fa89612e861f662
 }
