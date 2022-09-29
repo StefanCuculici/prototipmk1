@@ -95,6 +95,11 @@ header#mainheader {
   color: white;
 }
 
+main#main-content {
+  width: 90%;
+  margin: auto;
+}
+
 .tort {
   width: 200px;
   height: 200px;
@@ -116,6 +121,8 @@ header#mainheader {
 }
 .block h1 {
   color: white;
+  font-size: 25px;
+  text-align: center;
 }
 
 svg {

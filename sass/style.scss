@@ -64,6 +64,10 @@ header#mainheader {
     }
 }
 
+main#main-content {
+    width:90%;
+    margin:auto;
+}
 .tort {
     width:200px;
     height:200px;
@@ -76,8 +80,6 @@ header#mainheader {
 
 }
 
-
-
 .block {
    background-color: black;
     width:200px;
@@ -89,6 +91,8 @@ header#mainheader {
 
     h1 {
         color:$secondary-color;
+        font-size:25px;
+        text-align: center;
     }
 
 }
